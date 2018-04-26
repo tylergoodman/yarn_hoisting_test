@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "reinstall": "rm -rf ./node_modules/ ./workspaces/*/node_modules && yarn"
+  },
+  "workspaces": {
+    "packages": [
+      "workspaces/*"
+    ],
+    "nohoist": [
+    ]
+  }
+}
